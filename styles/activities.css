@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+/*    background-color: rgb(251, 244, 235);*/
+    background-color: #1a1a1a;
+}
+
+.jumbotron {
+    /*background-image: url('../images/VP/dron/zalazak_2.jpg');*/
+    /*background-image: url('../images/VP/selekcija/molunat450.jpg');*/
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url('../images/VP/zadnje/molunat017.jpg') no-repeat center center / cover;*/
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(26, 26, 26,0)), url('../images/VP/dron/IMG-1a8223fea045b04761dc4fb20962609d-V.jpg') no-repeat center center / cover;
+    background-position: top;
+    background-size: cover;
+    margin: 0;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+
+/*.placeholder {
+    height:15%;
+}*/
+
+.jumbotitle {
+    font-size: 65px;
+/*    text-align: left;*/
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+
+h3 {
+    font-size: 25px;
+}
+
+
+
+.modal-content {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-indicators button {
+    height: 30px !important;
+    text-indent: 0px !important;
+    width: 120px !important;
+
+}
+
+.carousel-item {
+    background-color: rgb(0, 0, 0);
+    color: white !important;
+}
+
+
+.text-wrap {
+    font-size: 25px;
+}
+
+.amenities {
+    height: 85vh;
+    width: 100%;
+    background: url('../images/VP/places/dubrovnikBanner.jpg') no-repeat fixed center center / cover;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.sunset {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../images/VP/dron/zalazak_1.jpg') no-repeat fixed center center / cover;
+}
+
+.infinity-pool {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../images/VP/dron/molunat007.jpg') no-repeat fixed center center / cover;
+}
+
+.boat-mooring {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/uvalajaoo.jpg') no-repeat fixed center center / cover;
+}
+
+.organic-produce {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/proizvodi/IMG-20230911-WA0018.jpg') no-repeat fixed center center / cover;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('../images/VP/proizvodi/IMG-20230911-WA0022.jpg') no-repeat fixed center center / cover;
+}
+
+.private-chef {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/zadnje/ribalist.jpeg') no-repeat fixed center center / cover;
+}
+
+.detox {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/molunat125\ -\ Copy.jpg') no-repeat fixed center center / cover;
+}
+
+.views-breathtaking {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/org_produce.jpg') no-repeat fixed center center / cover;
+}
+
+.bbq {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/bbq.jpg') no-repeat fixed center center / cover;
+}
+
+.luxury-chambers {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/molunat271.jpg') no-repeat fixed center center / cover;
+}
+.peace-and-quiet {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/molunat249.jpg') no-repeat fixed center center / cover;
+}
+.mediterranean-oil {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/proizvodi/maslinamanja.jpg') no-repeat fixed center center / cover;
+}
+
+
+.seaside-access {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/bbq.jpg') no-repeat fixed center center / cover;
+}
+
+.masaza {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/zadnje/masaza2.jpeg') no-repeat fixed center center / cover;
+}
+
+.dubrovnik {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/dubrovnikBanner.jpg') no-repeat fixed center center / cover;
+}
+
+.montenegro {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/kotor.jpg') no-repeat fixed center center / cover;
+
+}
+
+.konavle {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/cavtat.png') no-repeat fixed center center / cover;
+}
+
+.ston {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/mali-ston-panoramic-view-01-1.jpg') no-repeat fixed center center / cover;
+}
+
+.peljesac {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/peljesac-peninsula-1643710669633.png') no-repeat fixed center center / cover;
+}
+.lokrum {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/Lokrum.jpg') no-repeat fixed center center / cover;
+}
+
+.trsteno {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/trsteno.jpg') no-repeat fixed center center / cover;
+}
+
+.elafiti {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/lopud.jpg') no-repeat fixed center center / cover;
+}
+
+.museums {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/museums.jpg') no-repeat fixed center center / cover;
+}
+
+.restaurants {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/restorann.jpeg') no-repeat fixed center center / cover;
+}
+.gameofthrones {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/places/gameofthrones.jpg') no-repeat fixed center center / cover;
+}

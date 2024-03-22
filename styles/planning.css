@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: rgb(251, 244, 235);
+    /*background-position: top;
+    background-repeat: no-repeat; 
+    /*background-attachment: fixed; 
+    background-size: cover;
+    background-color: #464646; */
+}
+
+.jumbotron {
+    /*background-image: url('../images/VP/dron/zalazak_2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url('../images/VP/dron/zalazak_2.jpg') no-repeat center center / cover;
+    */
+    background-image: url('../images/VP/dron/molunat006.jpg');
+    background-image: url('../images/VP/selekcija/molunat430.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 80vh;
+    margin: 0;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+.placeholder {
+    height:40%;
+}
+
+.information {
+    background-color: rgba(10,10,10,.5);
+    color: white;
+}

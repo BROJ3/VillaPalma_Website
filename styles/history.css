@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+/*    background-color: rgb(251, 244, 235);*/
+    background-color: black;
+    color: white !important;
+}
+
+.karla-p {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.jumbotron {
+    /*background-image: url('../images/VP/dron/zalazak_2.jpg');*/
+    /*background-image: url('../images/VP/selekcija/molunat450.jpg');*/
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url('../images/VP/zadnje/molunat017.jpg') no-repeat center center / cover;*/
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url('../images/VP/selekcija/imanjescaled.jpg') no-repeat center center / cover;
+    background-position: top;
+    background-size: cover;
+    margin: 0;
+    max-width: 100%;
+    height: 110vh;
+    padding: 0;
+}
+
+
+.placeholder {
+    height:15%;
+}
+
+.jumbotitle {
+    font-size: 65px;
+    text-align: left;
+    color: white;
+}
+
+
+
+
+.content {
+    height: 500px;
+}
+
+p {
+    font-family: 'Karla';
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+  }
+
+  .fade-in-delay {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    transition-delay: 0.5s; /* Add a delay of 0.5 seconds */
+  }
+
+  /* Apply the fade-in effect after the 'loaded' class is added to the body */
+  body.loaded .fade-in,
+  body.loaded .fade-in-delay {
+    opacity: 1;
+  }
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dancing-script-heading {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+  }
+
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
+.karla-p {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+  }

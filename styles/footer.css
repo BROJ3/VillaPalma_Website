@@ -1,0 +1,13 @@
+#footer {
+    color: white;
+    height: 200px;
+    bottom: 0;
+    font-family: 'Karla','sans-serif';
+}
+
+#footer a {
+    color: white !important;
+    font-family: 'Karla','sans-serif';
+    text-align: left;
+
+}

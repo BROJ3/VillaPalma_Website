@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    background-color: rgb(251, 244, 235);
+    background-color: black;
+    /*background-position: top;
+    background-repeat: no-repeat; 
+    /*background-attachment: fixed; 
+    background-size: cover;
+    background-color: #464646; */
+}
+
+.jumbotron {
+    /*background-image: url('../images/VP/dron/zalazak_2.jpg');*/
+    /*background-image: url('../images/VP/selekcija/molunat450.jpg');*/
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url('../images/VP/dron/zalazak_2.jpg') no-repeat center center / cover;
+    background-position: top;
+    background-size: cover;
+    height: 80vh;
+    margin: 0;
+    max-width: 100%;
+    height: 120vh;
+    padding: 0;
+}
+
+
+.placeholder {
+    height:15%;
+}
+
+
+
+.jumbotitle {
+    font-size: 35px;
+    color: white;
+    text-align: center !important;
+    font: 'Prata';
+}
+
+.jumbotext {
+    font-size: 28px;
+}
+
+
+.buttons {
+    display: flex;
+}
+
+.ghost-button-semi-transparent-options {
+    display: inline-block;
+    background-color: transparent;
+    width: 200px;
+    padding: 8px;
+    margin: 3px;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+}
+
+.ghost-button-semi-transparent-options:hover,
+.ghost-button-semi-transparent-options:active {
+    background-color: #fff;
+    /* fallback */
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: #000;
+    /* fallback */
+    border-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+} 
+
+.ghost-button-semi-transparent-options a {
+    color: black;
+    text-decoration: none;
+   }
+
+#kontrast {
+    background-color: #000;
+    border-color: #fff;
+} 
+
+#kontrast:hover + #kontrast a {
+    color: black;
+}
+
+#kontrast:hover,
+#kontrast:active {
+    background-color: #fff;
+    border-color: black;
+}
+
+#kontrast a:hover,
+#kontrast a:active {
+    color: black;
+}
+
+#kontrast a {
+    color: white;
+}
+
+h3 {
+    margin-top: 80px;
+}
+
+.text-wrap {
+    background-color: rgba(0,0,0,0.6);
+    padding: 4%;
+    border-radius: 15px;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  .karla-p {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+  }
+
+.dancing-script-heading {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+  }
+
+
+.dancing-script-heading {
+    opacity: 1;
+}
+
+
+.fade-in {
+      opacity: 0;
+      transition: opacity 3s ease-in-out;
+    }
+
+    .fade-in-delay {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      transition-delay: 0.5s; /* Add a delay of 0.5 seconds */
+    }
+
+    /* Apply the fade-in effect after the 'loaded' class is added to the body */
+    body.loaded .fade-in,
+    body.loaded .fade-in-delay {
+      opacity: 1;
+    }
+
+.video {
+    height: 500px;
+}
+
+iframe { 
+    width: 100%;
+    height: 100%;
+
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

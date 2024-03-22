@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+/*    background-color: rgb(251, 244, 235);*/
+    background-color: black;
+}
+
+.jumbotron {
+    /*background-image: url('../images/VP/dron/zalazak_2.jpg');*/
+    /*background-image: url('../images/VP/selekcija/molunat450.jpg');*/
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url('../images/VP/zadnje/molunat017.jpg') no-repeat center center / cover;*/
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url('../images/VP/selekcija/drugimolunat188.jpg') no-repeat center center / cover;
+    background-position: top;
+    background-size: cover;
+    margin: 0;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+
+/*.placeholder {
+    height:15%;
+}*/
+
+.jumbotitle {
+    font-size: 65px;
+/*    text-align: left;*/
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+
+h3 {
+    font-size: 25px;
+}
+
+.dubrovnik {
+    background: rgba(0,0,0,0) url('../images/VP/places/dubrovnikBanner.jpg') no-repeat center center / cover;
+}
+
+.kotor {
+    background: rgba(0,0,0,0) url('../images/VP/places/kotor.jpg') no-repeat center center / cover;
+}
+
+.konavle {
+    background: rgba(0,0,0,0) url('../images/VP/places/konavle.jpg') no-repeat center center / cover;
+}
+
+.ston {
+    background: rgba(0,0,0,0) url('../images/VP/places/ston.jpg') no-repeat center center / cover;
+}
+
+.peljesac {
+    background: rgba(0,0,0,0) url('../images/VP/places/peljesacbridge.jpeg') no-repeat center center / cover;
+}
+
+.modal-content {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-indicators button {
+    height: 30px !important;
+    text-indent: 0px !important;
+    width: 120px !important;
+
+}
+
+.carousel-item {
+    background-color: rgb(0, 0, 0);
+    color: white !important;
+}
+
+.carousel-caption {
+    color:black
+}
+
+.text-wrap {
+    font-size: 25px;
+}
+
+p {
+    color: white;
+
+}
