@@ -88,8 +88,11 @@ h3 {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/uvalajaoo.jpg') no-repeat fixed center center / cover;
 }
 
+.detox {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/molunat125\ -\ Copy.jpg') no-repeat fixed center center / cover;
+}
+
 .organic-produce {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/proizvodi/IMG-20230911-WA0018.jpg') no-repeat fixed center center / cover;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('../images/VP/proizvodi/IMG-20230911-WA0022.jpg') no-repeat fixed center center / cover;
 }
 
@@ -97,9 +100,6 @@ h3 {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/zadnje/ribalist.jpeg') no-repeat fixed center center / cover;
 }
 
-.detox {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/molunat125\ -\ Copy.jpg') no-repeat fixed center center / cover;
-}
 
 .views-breathtaking {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/org_produce.jpg') no-repeat fixed center center / cover;
