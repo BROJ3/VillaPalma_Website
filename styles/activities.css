@@ -2,6 +2,7 @@ body {
     margin: 0;
 /*    background-color: rgb(251, 244, 235);*/
     background-color: #1a1a1a;
+    background-color: black;
 }
 
 .jumbotron {
@@ -117,7 +118,6 @@ h3 {
 .mediterranean-oil {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/proizvodi/maslinamanja.jpg') no-repeat fixed center center / cover;
 }
-
 
 .seaside-access {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../images/VP/selekcija/bbq.jpg') no-repeat fixed center center / cover;
