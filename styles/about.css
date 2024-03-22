@@ -114,10 +114,7 @@ body.loaded .fade-in-delay {
     color: white;
   }
 
-  #signoff {
-    font-weight: 400!important;
 
-  }
 /*editing copied code*/
 
 .ovaj {
@@ -135,3 +132,11 @@ body.loaded .fade-in-delay {
   transform: translateY(0);
 }
 
+@media (max-width: 500px) { 
+
+  #signoff {
+    font-size: 20px!important;
+
+  }
+
+}
